@@ -3,6 +3,8 @@
 
 /* shared styles */
 * {
+  padding: 0;
+  margin: 0;
   font-family: "Work Sans", sans-serif;
 }
 
@@ -186,9 +188,13 @@ main {
 /* footer styles */
 footer {
   max-width: 1440px;
-  margin: 100px auto;
+  margin: 130px auto;
   border-radius: 8px;
   background: #fff4e7;
+}
+.footer{
+  justify-content: center;
+  align-items: center;
 }
 .footer p{
   text-align: center;
@@ -232,6 +238,7 @@ footer {
   }
   .footer p{
     padding: 10px;
+    max-width: 300px;
   }
 }
 
@@ -246,7 +253,8 @@ footer {
   .features-container {
     flex-direction: column;
   }
-  .footer {
+  .footer p{
     padding: 10px;
+    max-width: 600px;
   }
 }
