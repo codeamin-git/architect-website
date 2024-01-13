@@ -9,7 +9,9 @@
   color: #fff;
   text-align: center;
   font-weight: 600;
-  font-size: 20px;
+  font-size: 1.25rem;
+  padding: 20px 25px;
+  cursor: pointer;
 }
 * {
   font-family: "Work Sans", sans-serif;
@@ -64,4 +66,30 @@ nav li a {
 .banner-description {
   color: #727272;
   line-height: 26px;
+}
+.banner img{
+  width: 100%;
+  margin-top: 20px;
+}
+
+
+/* responsive media query */
+/* mobile devices */
+@media screen and (max-width: 576px) {
+  header{
+    padding: 10px;
+  }
+  nav{
+    flex-direction: column;
+  }
+}
+
+/* tablet or medium devices */
+@media screen and (min-width: 576px) and (max-width: 992px) {
+  header{
+    padding: 50px;
+  }
+  nav{
+    flex-direction: column;
+  }
 }
